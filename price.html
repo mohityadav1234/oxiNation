@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price</title>
+    <style>
+        *{
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        main::before{
+            content: "";
+            position: absolute;
+            height: 100vh;
+            background-image: radial-gradient( #a1a2a4 20%,#353e43 60%);
+            top: 0;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+        .box2{
+            display: flex;
+            height: 40vh;
+        }
+        .box1{
+            display: flex;
+            height: 10vh;
+            align-items:center ;
+            justify-content:center;
+        }
+        h1{
+            color: #fff;
+            border-bottom: 5px solid white;
+        }
+        .box3{
+            display: flex;
+            height: 50vh;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .chota{
+            border: 2px solid white;
+            border-radius: 20px;
+            height:30vh ;
+            width: 20%;
+            transition: all 0.4s ease;
+        }
+        .chota:hover{
+            transform: scale(1.2);
+            cursor: pointer;
+
+        }
+        .br{
+            background-color: #b08d57;
+        }
+        .sil{
+            background-color: #C0C0C0;
+        }
+        .gol{
+            background-color: #FFD700;
+        }
+        .dia{
+            background-color: #b9f2ff;
+        }
+        .p1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+        }
+        p{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        li{
+            margin: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box1">
+            <h1>Membership Price</h1>
+        </div>
+
+        <div class="box2">
+            <img src="gym5.gif" alt="">
+            <img src="gym1.gif" alt="">
+            <img src="gym2.gif" alt="">
+            <img src="gym3.gif" alt="">
+            <img src="gym4.gif" alt="">
+            <img src="gym6.gif" alt="">
+        </div>
+        <div class="box3">
+            <div class="chota dia">
+                <p class="p1">Diamond Pack</p>
+                <p>Benifits</p>
+                <ul>
+                    <li>Duration: 12months</li>
+                    <li>Gym : &#8377;12000</li>
+                    <li>Gym + Cardio: &#8377; 13200</li>
+                </ul>
+
+            </div>
+            <div class="chota gol">
+                <p class="p1">Gold Pack</p>
+                <p>Benifits</p>
+                <ul>
+                    <li>Duration: 6months</li>
+                    <li>Gym : &#8377;6000</li>
+                    <li>Gym + Cardio: &#8377; 6600</li>
+                </ul>
+
+            </div>
+            <div class="chota sil">
+                <p class="p1">Silver Pack</p>
+                <p>Benifits</p>
+                <ul>
+                    <li>Duration: 3months</li>
+                    <li>Gym : &#8377;3000</li>
+                    <li>Gym + Cardio: &#8377; 3300</li>
+                </ul>
+
+            </div>
+            <div class="chota br" >
+                <p class="p1">Bronze Pack</p>
+                <p>Benifits</p>
+                <ul>
+                    <li>Duration: 1 month</li>
+                    <li>Gym : &#8377;1000</li>
+                    <li>Gym + Cardio: &#8377; 1300</li>
+                </ul>
+
+            </div>
+        </div>
+
+    </main>
+    
+</body>
+</html>

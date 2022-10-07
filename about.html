@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            /* overflow-y: scroll; */
+        }
+
+        main::before {
+            content: "";
+            position: absolute;
+            height: 100vh;
+            background-image: radial-gradient(#a1a2a4 20%, #353e43 60%);
+            top: 0;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        .box1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: space-around;
+            height: 60vh;
+            flex-wrap: wrap;
+        }
+
+        .chota {
+            /* border: 2px solid white; */
+            height:fit-content;
+            width: 45%;
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+
+        }
+
+        h2 {
+
+            border-bottom: 5px solid white;
+        }
+
+        .content {
+            color: #f2f2f2;
+            font-size: 18px;
+            text-justify: left;
+        }
+        p{
+            display: block;
+        }
+        @media (max-width:860px){
+            .chota {
+            width: 80%;
+            
+            
+        }
+
+        }
+
+        
+    
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box1">
+            <img src="img2.png" alt="">
+
+        </div>
+        <div class="box2">
+            <div class="chota">
+                <div class="head">
+                    <h2>Our Story</h2>
+                </div>
+                <div class="content">
+                    <p> ‘Organization Name’ is your new home in boutique wellness. We join the dependable standards of
+                        Pilates with forefront development to give you the most out of each exercise. Our specialists
+                        are very prepared and fit the bill to furnish you with shape centered alterations that will push
+                        you as far as possible without bargaining your security. Expect high-vitality quick paced
+                        exercises that leave each muscle shaking. ‘Organization Name’ was established in 2012 by
+                        Jeanette and Ryan</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde commodi voluptatibus
+                        dolore ab quis ratione ex aliquam doloremque cum.</p>
+
+                </div>
+
+            </div>
+            <div class="chota">
+                <div class="head">
+                    <h2>What We Do</h2>
+                </div>
+                <div class="content">
+                    <p>‘Organization Name’ is your new home in boutique wellness. We join the dependable standards of
+                        Pilates with forefront development to give you the most out of each exercise. Our specialists
+                        are very prepared and fit the bill to furnish you with shape centered alterations that will push
+                        you as far as possible without bargaining your security. Expect high-vitality quick paced
+                        exercises that leave each muscle shaking. ‘Organization Name’ was established in 2012 by
+                        Jeanette and Ryan</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod at quo nemo a molestias, optio
+                        aspernatur ipsa illum ipsam voluptatibus tenetur ex sapiente ratione! Minus reiciendis possimus
+                        aut, commodi nesciunt hic? Provident ipsa rem.</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+
+</body>
+
+</html>
